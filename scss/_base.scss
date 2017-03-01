@@ -1,0 +1,22 @@
+@import 'icon/*.png';
+@include all-icon-sprites;
+
+li {
+	display: inline-block;
+	list-style:none;
+	padding: 10px;
+	a {
+		display: inline-block;
+		width: 100px;
+		height: 100px;
+		span {
+			position: absolute;
+			top:-9999em;
+			left:-9999em;
+		}//span
+	}//a
+}// end li
+
+header {
+	text-align: center;
+}
