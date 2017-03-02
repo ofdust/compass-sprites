@@ -477,8 +477,8 @@ textarea {
   padding: 0.2em 0;
 }
 
-.icon-sprite, .icon-facebook, .icon-home, .icon-instagram, .icon-pinterest, .icon-tumblr, .icon-twitter {
-  background-image: url('../img/icon-se7a0017356.png');
+.icon-sprite, .icon-facebook, .icon-home, .icon-instagram, .icon-pinterest, .icon-tumblr, .icon-twitter, .icon-up {
+  background-image: url('../img/icon-se92699641a.png');
   background-repeat: no-repeat;
 }
 
@@ -522,6 +522,13 @@ textarea {
 }
 .icon-twitter:hover, .icon-twitter.twitter-hover {
   background-position: 0 -1000px;
+}
+
+.icon-up {
+  background-position: 0 -1300px;
+}
+.icon-up:hover, .icon-up.up-hover {
+  background-position: 0 -1200px;
 }
 
 #container {
@@ -583,6 +590,12 @@ header {
   zoom: 0.5;
   -moz-transform: scale(0.5);
   -moz-transform-origin: 0 0;
+}
+
+#up {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
 }
 
 section {
