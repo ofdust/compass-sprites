@@ -1,6 +1,37 @@
 @import 'icon/*.png';
 @include all-icon-sprites;
 
+#container {
+	width: 60%;
+	margin: 0 auto;
+}
+
+h1, h2 {
+	color: #365FB7;
+}
+
+nav {
+	margin-bottom: 0px;
+	text-align:center;
+	ul {
+		li {
+			a {
+				color: black;
+				text-decoration: none;
+				&:hover {
+					text-decoration: underline;
+				}
+			}//a
+			.icon-home {
+				zoom:0.4;
+				-moz-transform:scale(0.4);
+   	 			-moz-transform-origin: 0 0;
+   	 			margin-bottom: -20px;
+			}
+		}//li
+	}//ul
+}//nav
+
 li {
 	display: inline-block;
 	list-style:none;
@@ -19,4 +50,27 @@ li {
 
 header {
 	text-align: center;
+}
+
+#social-media {
+	position: fixed;
+	bottom: 20px;
+	left: 20px;
+	li {
+		display: block;
+		a {
+			zoom:0.5;
+    		-moz-transform:scale(0.5);
+   	 		-moz-transform-origin: 0 0;
+		}//a
+	}//li
+}//#social-media
+
+section {
+	margin-bottom:20px;
+	margin-top:0px;
+	p {
+		background-color: #BA9B65;
+		padding:10px;
+	}
 }

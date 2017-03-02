@@ -477,8 +477,8 @@ textarea {
   padding: 0.2em 0;
 }
 
-.icon-sprite, .icon-facebook, .icon-instagram, .icon-pinterest, .icon-tumblr, .icon-twitter {
-  background-image: url('../img/icon-sc135d6f55f.png');
+.icon-sprite, .icon-facebook, .icon-home, .icon-instagram, .icon-pinterest, .icon-tumblr, .icon-twitter {
+  background-image: url('../img/icon-se7a0017356.png');
   background-repeat: no-repeat;
 }
 
@@ -489,32 +489,66 @@ textarea {
   background-position: 0 0;
 }
 
-.icon-instagram {
+.icon-home {
   background-position: 0 -300px;
 }
-.icon-instagram:hover, .icon-instagram.instagram-hover {
+.icon-home:hover, .icon-home.home-hover {
   background-position: 0 -200px;
 }
 
-.icon-pinterest {
+.icon-instagram {
   background-position: 0 -500px;
 }
-.icon-pinterest:hover, .icon-pinterest.pinterest-hover {
+.icon-instagram:hover, .icon-instagram.instagram-hover {
   background-position: 0 -400px;
 }
 
-.icon-tumblr {
+.icon-pinterest {
   background-position: 0 -700px;
 }
-.icon-tumblr:hover, .icon-tumblr.tumblr-hover {
+.icon-pinterest:hover, .icon-pinterest.pinterest-hover {
   background-position: 0 -600px;
 }
 
-.icon-twitter {
+.icon-tumblr {
   background-position: 0 -900px;
 }
-.icon-twitter:hover, .icon-twitter.twitter-hover {
+.icon-tumblr:hover, .icon-tumblr.tumblr-hover {
   background-position: 0 -800px;
+}
+
+.icon-twitter {
+  background-position: 0 -1100px;
+}
+.icon-twitter:hover, .icon-twitter.twitter-hover {
+  background-position: 0 -1000px;
+}
+
+#container {
+  width: 60%;
+  margin: 0 auto;
+}
+
+h1, h2 {
+  color: #365FB7;
+}
+
+nav {
+  margin-bottom: 0px;
+  text-align: center;
+}
+nav ul li a {
+  color: black;
+  text-decoration: none;
+}
+nav ul li a:hover {
+  text-decoration: underline;
+}
+nav ul li .icon-home {
+  zoom: 0.4;
+  -moz-transform: scale(0.4);
+  -moz-transform-origin: 0 0;
+  margin-bottom: -20px;
 }
 
 li {
@@ -535,6 +569,29 @@ li a span {
 
 header {
   text-align: center;
+}
+
+#social-media {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+}
+#social-media li {
+  display: block;
+}
+#social-media li a {
+  zoom: 0.5;
+  -moz-transform: scale(0.5);
+  -moz-transform-origin: 0 0;
+}
+
+section {
+  margin-bottom: 20px;
+  margin-top: 0px;
+}
+section p {
+  background-color: #BA9B65;
+  padding: 10px;
 }
 
 /* ==========================================================================
