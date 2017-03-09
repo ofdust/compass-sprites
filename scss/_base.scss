@@ -22,18 +22,16 @@ nav {
 	ul {
 		li {
 			a {
-				color: rgba(140, 190, 178, 1);
+				color: rgba(140, 190, 178, 1); 
 				text-decoration: none;
+				zoom:0.5;
+				-moz-transform:scale(0.5);
+   	 			-moz-transform-origin: 0 0;
+   	 			margin-bottom: -20px;
 				&:hover {
 					text-decoration: underline;
 				}
 			}//a
-			.icon-home {
-				zoom:0.4;
-				-moz-transform:scale(0.4);
-   	 			-moz-transform-origin: 0 0;
-   	 			margin-bottom: -20px;
-			}
 		}//li
 	}//ul
 }//nav
