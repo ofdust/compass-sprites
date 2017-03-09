@@ -477,8 +477,8 @@ textarea {
   padding: 0.2em 0;
 }
 
-.icon-sprite, .icon-facebook, .icon-home, .icon-instagram, .icon-pinterest, .icon-tumblr, .icon-twitter, .icon-up {
-  background-image: url('../img/icon-se92699641a.png');
+.icon-sprite, .icon-facebook, .icon-home, .icon-instagram, .icon-pinterest, .icon-toggleoff, .icon-toggleon, .icon-tumblr, .icon-twitter, .icon-up {
+  background-image: url('../img/icon-sc64b590e73.png');
   background-repeat: no-repeat;
 }
 
@@ -510,34 +510,54 @@ textarea {
   background-position: 0 -600px;
 }
 
-.icon-tumblr {
+.icon-toggleoff {
   background-position: 0 -900px;
 }
-.icon-tumblr:hover, .icon-tumblr.tumblr-hover {
+.icon-toggleoff:hover, .icon-toggleoff.toggleoff-hover {
   background-position: 0 -800px;
 }
 
-.icon-twitter {
+.icon-toggleon {
   background-position: 0 -1100px;
 }
-.icon-twitter:hover, .icon-twitter.twitter-hover {
+.icon-toggleon:hover, .icon-toggleon.toggleon-hover {
   background-position: 0 -1000px;
 }
 
-.icon-up {
+.icon-tumblr {
   background-position: 0 -1300px;
 }
-.icon-up:hover, .icon-up.up-hover {
+.icon-tumblr:hover, .icon-tumblr.tumblr-hover {
   background-position: 0 -1200px;
+}
+
+.icon-twitter {
+  background-position: 0 -1500px;
+}
+.icon-twitter:hover, .icon-twitter.twitter-hover {
+  background-position: 0 -1400px;
+}
+
+.icon-up {
+  background-position: 0 -1700px;
+}
+.icon-up:hover, .icon-up.up-hover {
+  background-position: 0 -1600px;
+}
+
+*, html, body {
+  box-sizing: border-box;
 }
 
 #container {
   width: 60%;
   margin: 0 auto;
+  background-color: rgba(242, 235, 191, 0.5);
+  padding: 20px;
 }
 
 h1, h2 {
-  color: #365FB7;
+  color: #f06060;
 }
 
 nav {
@@ -545,7 +565,7 @@ nav {
   text-align: center;
 }
 nav ul li a {
-  color: black;
+  color: #8cbeb2;
   text-decoration: none;
 }
 nav ul li a:hover {
@@ -603,7 +623,6 @@ section {
   margin-top: 0px;
 }
 section p {
-  background-color: #BA9B65;
   padding: 10px;
 }
 

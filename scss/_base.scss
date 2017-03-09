@@ -1,13 +1,19 @@
 @import 'icon/*.png';
 @include all-icon-sprites;
 
+*, html, body {
+	box-sizing: border-box;
+}
+
 #container {
 	width: 60%;
 	margin: 0 auto;
+	background-color: rgba(242, 235, 191, .5);
+	padding: 20px;
 }
 
 h1, h2 {
-	color: #365FB7;
+	color: rgba(240, 96, 96, 1);
 }
 
 nav {
@@ -16,7 +22,7 @@ nav {
 	ul {
 		li {
 			a {
-				color: black;
+				color: rgba(140, 190, 178, 1);
 				text-decoration: none;
 				&:hover {
 					text-decoration: underline;
@@ -76,7 +82,6 @@ section {
 	margin-bottom:20px;
 	margin-top:0px;
 	p {
-		background-color: #BA9B65;
 		padding:10px;
 	}
 }
