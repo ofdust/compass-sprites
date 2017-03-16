@@ -478,7 +478,7 @@ textarea {
 }
 
 .icon-sprite, .icon-empire, .icon-facebook, .icon-gear, .icon-home, .icon-instagram, .icon-pinterest, .icon-rebel, .icon-toggleoff, .icon-toggleon, .icon-tumblr, .icon-twitter, .icon-up {
-  background-image: url('../img/icon-s0ff9261aec.png');
+  background-image: url('../img/icon-s22dd9bd703.png');
   background-repeat: no-repeat;
 }
 
@@ -570,10 +570,15 @@ textarea {
   box-sizing: border-box;
 }
 
+body {
+  background: url("../img/background.jpg") center center no-repeat fixed;
+  background-size: cover;
+}
+
 #container {
   width: 60%;
   margin: 0 auto;
-  background-color: rgba(242, 235, 191, 0.5);
+  background-color: rgba(250, 250, 250, 0.5);
   padding: 20px;
 }
 
@@ -588,8 +593,8 @@ nav {
 nav ul li a {
   color: #8cbeb2;
   text-decoration: none;
-  zoom: 0.5;
-  -moz-transform: scale(0.5);
+  zoom: 0.6;
+  -moz-transform: scale(0.6);
   -moz-transform-origin: 0 0;
   margin-bottom: -20px;
 }

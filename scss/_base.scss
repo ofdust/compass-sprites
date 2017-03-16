@@ -5,10 +5,16 @@
 	box-sizing: border-box;
 }
 
+body {
+	background: url("../img/background.jpg") center center no-repeat fixed;
+  	background-size: cover;
+ 
+}
+
 #container {
 	width: 60%;
 	margin: 0 auto;
-	background-color: rgba(242, 235, 191, .5);
+	background-color: rgba(250, 250, 250, .5);
 	padding: 20px;
 }
 
@@ -24,8 +30,8 @@ nav {
 			a {
 				color: rgba(140, 190, 178, 1); 
 				text-decoration: none;
-				zoom:0.5;
-				-moz-transform:scale(0.5);
+				zoom:0.6;
+				-moz-transform:scale(0.6);
    	 			-moz-transform-origin: 0 0;
    	 			margin-bottom: -20px;
 				&:hover {
